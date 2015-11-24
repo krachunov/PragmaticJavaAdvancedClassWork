@@ -2,7 +2,7 @@ package edu.pragmatic.advanced.reflection;
 
 public class Person {
 	private String name;
-	private int age;
+	private Integer age;
 
 	public Person(String name) {
 		this.name = name;
@@ -24,4 +24,8 @@ public class Person {
 		this.age = age;
 	}
 
+	@Override
+	public String toString() {
+		return String.format("Name= %s \nAge= %d", name, age);
+	}
 }
