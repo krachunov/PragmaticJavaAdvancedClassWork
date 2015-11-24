@@ -1,4 +1,4 @@
-package edu.pragmatic.advanced.reflection;
+package edu.pragmatic.java.advanced.reflection;
 
 import java.beans.FeatureDescriptor;
 import java.lang.reflect.Field;

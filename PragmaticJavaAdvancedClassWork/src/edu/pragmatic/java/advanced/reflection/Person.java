@@ -1,5 +1,7 @@
-package edu.pragmatic.advanced.reflection;
+package edu.pragmatic.java.advanced.reflection;
 
+//@Deprecated
+@Table(tableName="Prson table")
 public class Person {
 	private String name;
 	private Integer age;

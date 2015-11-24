@@ -1,4 +1,4 @@
-package edu.pragmatic.advanced.reflection;
+package edu.pragmatic.java.advanced.reflection;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
