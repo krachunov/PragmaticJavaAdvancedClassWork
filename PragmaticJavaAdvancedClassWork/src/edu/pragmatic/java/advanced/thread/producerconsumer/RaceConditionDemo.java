@@ -6,8 +6,8 @@ public class RaceConditionDemo {
 		Shelf shelf = new Shelf();
 		Producer producer = new Producer(shelf);
 		Consumer consumer = new Consumer(shelf);
-		producer.start();
 		consumer.start();
+		producer.start();
 	}
 
 }

@@ -10,7 +10,15 @@ public class Consumer extends Thread {
 
 	@Override
 	public void run() {
+		if (shelf.getNumber() == 0) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 		int number = shelf.getNumber();
-		System.out.println("[" + getName() + "] get "+number);
+		System.out.println("[" + getName() + "] get " + number);
 	}
 }
