@@ -20,10 +20,8 @@ public class Shelf {
 	public void setNumber(int number) {
 		this.number = number;
 		synchronized (this) {
-			
 			notifyAll();
 		}
 	}
-
 
 }
