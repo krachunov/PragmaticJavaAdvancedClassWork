@@ -13,6 +13,6 @@ public class Producer extends Thread {
 	public void run() {
 		int newNumber = ++currentProducerNumber;
 		this.shelf.setNumber(newNumber);
-		System.out.println("["+getName()+"] Just produced "+newNumber);
+		System.out.println("[" + getName() + "] Just produced " + newNumber);
 	}
 }
