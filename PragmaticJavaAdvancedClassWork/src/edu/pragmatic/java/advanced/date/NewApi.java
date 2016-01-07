@@ -8,7 +8,7 @@ public class NewApi {
 
 	public static void main(String[] args) {
 		// new
-		DayOfWeek birthday = LocalDate.of(1985, 11, 14).getDayOfWeek();
+		DayOfWeek birthday = LocalDate.of(1985, Month.NOVEMBER, 14).getDayOfWeek();
 		System.out.println(birthday);
 
 		// old
